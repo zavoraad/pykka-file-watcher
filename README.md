@@ -5,8 +5,8 @@ In this program exploring the functionality of akka actor model programming. Tak
 
 ## Workflow 
 FileWatcher (watches for new files appearing in directory maintaining internal state of fileList). new file TELL<br/>
-  FileStable -> (determine that a file is stable, e.g. no longer being copied to location based upon file size and interval). file is steady TELL<br/>
-    N/A -> This is where we leave off for [furuther processing] (https://github.com/zavoraad/pykka-file-watcher/blob/26ee7ae1cc9a58e0382ff602889a5957e00ed0fd/sample.py#L75-L77)
+&ensp;FileStable -> (determine that a file is stable, e.g. no longer being copied to location based upon file size and interval). file is steady TELL<br/>
+&ensp;&ensp;N/A -> This is where we leave off for [furuther processing] https://github.com/zavoraad/pykka-file-watcher/blob/26ee7ae1cc9a58e0382ff602889a5957e00ed0fd/sample.py#L75-L77
 
 ## Example
 
