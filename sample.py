@@ -74,7 +74,7 @@ class FileStableManager(pykka.ThreadingActor):
                                         fileStable[i].tell(list(message)[i])
                         elif isinstance(message, FileDetails):
                                 #TODO this is a stable file, time to process it
-                                print('TOD passing off to the next actor to process as this file is stable ' + str(message.fileLocation))
+                                print('TODO passing off to the next actor to process as this file is stable ' + str(message.fileLocation))
                 except Exception as e:
                         print(str(e))
 
