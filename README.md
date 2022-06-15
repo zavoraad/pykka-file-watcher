@@ -14,10 +14,10 @@ Running this file watcher on this Github repo's files
 $ pip install -r requirements.txt && python sample.py 
 ```
 > new files I have seen are: {'.//requirements.txt', './/LICENSE', './/README.md', './/sample.py'}
-> FileStableManager received this message {'.//requirements.txt', './/LICENSE', './/README.md', './/sample.py'}
-> Checking to see if this file is stable in FileStableManager {'.//requirements.txt', './/LICENSE', './/README.md', './/sample.py'}
-> calling the FileStable actor with input .//requirements.txt
-> calling the FileStable actor with input .//LICENSE
+FileStableManager received this message {'.//requirements.txt', './/LICENSE', './/README.md', './/sample.py'}
+Checking to see if this file is stable in FileStableManager {'.//requirements.txt', './/LICENSE', './/README.md', './/sample.py'}
+calling the FileStable actor with input .//requirements.txt
+calling the FileStable actor with input .//LICENSE
 > I received a message in FileStable
 > calling the FileStable actor with input .//README.md
 > calling the FileStable actor with input .//sample.py
